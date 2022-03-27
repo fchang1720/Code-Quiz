@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    width: 50%;
+    padding: 10px;
+}
+
+header .title{
+    background-color: darkmagenta;
+    font-size: 48px;
+    color: white;
+    padding: 30px;
+    margin: 20px 40px;
+}
+
+header .start-button{
+    padding: 0px 20px 0px 20px;
+    margin: 20px;
+    font-size: 30px;
+    width: 100px;
+
+
+}
+
+.container{
+    padding: 20px;
+    width: 70%;
+}
+
+.container .display-questions{
+    padding: 20px;
+    border: solid 10px black;
+    border-radius: 20px;
+    width: 70%;
+    display: none;
+
+}
+
+.container .display-questions .buttons{
+    padding: 10px;
+
+}
+.container .next-button{
+    margin: 20px;
+    display: none;
+
+
+}
+.timer{
+    display: flex;
+    padding: 50px;
+}
+.timer .timer-count{
+    font-size: 30px;
+}
