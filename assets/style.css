@@ -52,6 +52,9 @@ header .start-button{
 .container .display-questions .display-question4{
     display: none;
 }
+.container .display-questions .victory{
+    display: none;
+}
 .container .display-questions .buttons{
     padding: 10px;
 
