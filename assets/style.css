@@ -43,11 +43,38 @@ header .start-button{
 
 }
 
+.container .display-questions .display-question2{
+    display: none;
+}
+.container .display-questions .display-question3{
+    display: none;
+}
+.container .display-questions .display-question4{
+    display: none;
+}
 .container .display-questions .buttons{
     padding: 10px;
 
 }
-.container .next-button{
+.container .next-button1{
+    margin: 20px;
+    display: none;
+
+
+}
+.container .next-button2{
+    margin: 20px;
+    display: none;
+
+
+}
+.container .next-button3{
+    margin: 20px;
+    display: none;
+
+
+}
+.container .next-button4{
     margin: 20px;
     display: none;
 
