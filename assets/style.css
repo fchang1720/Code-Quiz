@@ -5,10 +5,10 @@
 header {
     background-color: blueviolet;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     text-align: center;
 
-    width: 50%;
+    width: 70%;
     padding: 10px;
 }
 
@@ -29,6 +29,10 @@ header .start-button{
 
 }
 
+section{
+    display: flex;
+    justify-content: center;
+}
 .container{
     padding: 20px;
     width: 70%;
@@ -67,7 +71,10 @@ header .start-button{
 
 .timer{
     display: flex;
-    padding: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 20%;
 }
 .timer .timer-count{
     font-size: 30px;
