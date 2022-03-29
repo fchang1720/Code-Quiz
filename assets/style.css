@@ -55,34 +55,16 @@ header .start-button{
 .container .display-questions .victory{
     display: none;
 }
+.container .display-questions .victory span{
+    font-size: 30px;
+}
 .container .display-questions .buttons{
     padding: 10px;
 
 }
-.container .next-button1{
-    margin: 20px;
-    display: none;
 
 
-}
-.container .next-button2{
-    margin: 20px;
-    display: none;
 
-
-}
-.container .next-button3{
-    margin: 20px;
-    display: none;
-
-
-}
-.container .next-button4{
-    margin: 20px;
-    display: none;
-
-
-}
 .timer{
     display: flex;
     padding: 50px;
