@@ -29,6 +29,9 @@ header .start-button{
 
 }
 
+h3 {
+    font-size: 20px;
+}
 section{
     display: flex;
     justify-content: center;
