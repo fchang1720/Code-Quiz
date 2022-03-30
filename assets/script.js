@@ -40,7 +40,7 @@ function startGame() {
     qset1.setAttribute("style", "display:block");
     timerCount = 50;
     startBtn.disabled = true;
-
+    victory.setAttribute("style", "display:none");
     startTimer()
 
 }
@@ -124,7 +124,8 @@ button4.addEventListener("click", function(event){
     qset4.setAttribute("style", "display:none");
     victory.setAttribute("style", "display:block");
     win = true;
- 
+    verify.textContent = ""
+    
 });
 
 // event listener for submit button, also adds prevent default.
@@ -134,4 +135,5 @@ submitBtn.addEventListener("click", function(event) {
     localStorage.setItem("initials", initials.value);
     localStorage.setItem("time score", timerCount);
     setScore();
+    startBtn.disabled = false;
 });
