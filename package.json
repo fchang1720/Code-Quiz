@@ -1,0 +1,20 @@
+{
+  "name": "code-quiz",
+  "version": "1.0.0",
+  "description": "Hi! This is my attempt at making a code-quiz through javascript. You can find it at:\r https://fchang1720.github.io/Code-Quiz/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fchang1720/Code-Quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fchang1720/Code-Quiz/issues"
+  },
+  "homepage": "https://github.com/fchang1720/Code-Quiz#readme"
+}
